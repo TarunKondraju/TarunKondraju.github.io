@@ -1,47 +1,79 @@
----
-hide:
-  - toc
-  - navigation
----
-<!--
-CHECKLIST FOR THIS PAGE:
-- [ ] Replace the two placeholder cards (marked [YOUR PROJECT ...]) with your real projects
-- [ ] For each project: add a thumbnail image to docs/assets/images/ and update the path below
-- [ ] For each project: create a project page by copying sample-project.md
-- [ ] For each project: add a nav entry in mkdocs.yml (see the comments there)
-- [ ] Delete placeholder cards you don't need yet
--->
-
 # Projects
 
-A selection of my geospatial projects. Click any card to see the full write-up.
+A selection of my geospatial products and analytical pipelines. Click any card to see the full methodology.
 
 <div class="grid" markdown>
 
 <div class="project-card" markdown>
-![](../assets/images/placeholder-project.png)
+![](../assets/images/pusaecms-thumb.png)
 
-**[Sample Project](sample-project.md)**
+**[PUSAECMS](pusaecms.md)**
 
-[YOUR PROJECT DESCRIPTION — one or two sentences: what you did, what data you used,
-and what you found or built.]
+A Google Earth Engine-based application for efficient big data processing, providing near real-time crop health management via quantitative temporal analysis.
 
-`[TOOL 1]` `[TOOL 2]` `[TOOL 3]`
+`Google Earth Engine` `JavaScript` `Big Data`
 
-[View Project →](sample-project.md){ .md-button }
+[View Project →](pusaecms.md){ .md-button }
 </div>
 
 <div class="project-card" markdown>
-![](../assets/images/placeholder-notebook.png)
+![](../assets/images/vasudha-thumb.png)
 
-**[Sample Notebook](sample-notebook.ipynb)**
+**[VASUDHA](vasudha.md)**
 
-[YOUR PROJECT DESCRIPTION — one or two sentences: what you did, what data you used,
-and what you found or built.]
+An application to monitor soil health (N, P, K, OC, EC, pH) in real-time and offline using VNIR/SWIR and MIR spectra.
 
-`Python` `pandas` `Folium`
+`Spectroscopy` `Machine Learning` `Python`
 
-[View Project →](sample-notebook.ipynb){ .md-button }
+[View Project →](vasudha.md){ .md-button }
+</div>
+
+<div class="project-card" markdown>
+![](../assets/images/pusamia-thumb.png)
+
+**[PUSAMIA](pusamia.md)**
+
+An automated edge-computing pipeline designed to co-register, layer stack, and biophysically assess proximal multispectral images of crops.
+
+`UAV Analytics` `Computer Vision` `Edge Computing`
+
+[View Project →](pusamia.md){ .md-button }
+</div>
+
+<div class="project-card" markdown>
+![](../assets/images/paudha-thumb.png)
+
+**[PAUDHA](paudha.md)**
+
+An analytical tool designed to assess crop health traits from massive volumes of spectroradiometer data using advanced regression models.
+
+`Hyperspectral` `Gaussian Process Regression` `Python`
+
+[View Project →](paudha.md){ .md-button }
+</div>
+
+<div class="project-card" markdown>
+![](../assets/images/fieldmapper-thumb.png)
+
+**[FieldMapper](fieldmapper.md)**
+
+A comprehensive, Python-based photogrammetry application developed as a robust, open-source alternative to proprietary UAV data processing software like Pix4D and Agisoft Metashape. It is engineered to process raw drone imagery and generate survey-grade 3D outputs (DSM, DTM, Point Clouds) alongside highly accurate orthomosaics across RGB, multispectral, and thermal sensor datasets.
+
+`UAV` `Multiband Orthomosaic` `Python`
+
+[View Project →](fieldmapper.md){ .md-button }
+</div>
+
+<div class="project-card" markdown>
+![](../assets/images/edgeprocessing-thumb.png)
+
+**[EdgeProcessing](edgeprocessing.md)**
+
+Edge Processing of Multispectral Data is an automated pipeline designed to co-register, layer stack, and conduct Urea requirement assessments of crops from UAV-mounted Multispectral images in real-time.
+
+`Multispectral` `Real-time` `Python`
+
+[View Project →](edgeprocessing.md){ .md-button }
 </div>
 
 </div>
