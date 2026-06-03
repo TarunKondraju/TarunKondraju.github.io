@@ -67,13 +67,13 @@ nav:
   - Home: index.md
   - Projects:
     - "All Projects": projects/index.md
+    - "Civ 5 AI Advisor": projects/civ5-ai-advisor.md
     - "PAUDHA": projects/paudha.md
     - "VASUDHA": projects/vasudha.md
     - "PUSAMIA": projects/pusamia.md
     - "PUSA eCMS": projects/pusaecms.md
     - "FieldMapper": projects/fieldmapper.md
     - "EdgeProcessing": projects/edgeprocessing.md
-    - "Civ 5 AI Advisor": projects/civ5-ai-advisor.md
   - Publications: publications.md
   - Experience: experience.md
   - Contact: contact.md
