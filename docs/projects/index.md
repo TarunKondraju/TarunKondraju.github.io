@@ -77,6 +77,7 @@ Edge Processing of Multispectral Data is an automated pipeline designed to co-re
 </div>
 
 <div class="project-card" markdown>
+![](../assets/images/civ5-thumb.png)
 
 **[Civ 5 AI Advisor](civ5-ai-advisor.md)**
 
