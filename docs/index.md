@@ -38,8 +38,6 @@ hide:
 
 ## My Projects
 
-## My Projects
-
 <div class="grid-3" markdown>
 
 <div class="project-card" markdown>
