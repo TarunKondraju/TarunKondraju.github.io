@@ -76,4 +76,15 @@ Edge Processing of Multispectral Data is an automated pipeline designed to co-re
 [View Project →](edgeprocessing.md){ .md-button }
 </div>
 
+<div class="project-card" markdown>
+
+**[Civ 5 AI Advisor](civ5-ai-advisor.md)**
+
+A powerful companion app for Sid Meier's Civilization V that tails live Lua memory to extract the complete game state, rendering a real-time web map and feeding the data to local LLMs for tactical advice.
+
+`Python` `LLM` `JavaScript`
+
+[View Project →](civ5-ai-advisor.md){ .md-button }
+</div>
+
 </div>
