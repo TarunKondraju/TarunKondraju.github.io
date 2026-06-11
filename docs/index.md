@@ -44,7 +44,7 @@ hide:
 
 ![](assets/images/pcms-thumb.png)
 
-**[PCMS](projects/pcms.md)**
+**[PUSA eCMS Desktop](projects/pcms.md)**
 
 A dynamic, multi-backend application that streams satellite imagery and generates Biophysical models (LAI, CCC, CWC).
 
