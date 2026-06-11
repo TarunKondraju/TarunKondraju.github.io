@@ -42,6 +42,18 @@ hide:
 
 <div class="project-card" markdown>
 
+![](assets/images/pcms-thumb.png)
+
+**[PCMS](projects/pcms.md)**
+
+A dynamic, multi-backend application that streams satellite imagery and generates Biophysical models (LAI, CCC, CWC).
+
+[View Project →](projects/pcms.md){ .md-button }
+
+</div>
+
+<div class="project-card" markdown>
+
 ![](assets/images/pusaecms-thumb.png)
 
 **[PUSAECMS](projects/pusaecms.md)**
