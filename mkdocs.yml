@@ -67,6 +67,7 @@ nav:
   - Home: index.md
   - Projects:
     - "All Projects": projects/index.md
+    - "PCMS": projects/pcms.md
     - "Civ 5 AI Advisor": projects/civ5-ai-advisor.md
     - "PAUDHA": projects/paudha.md
     - "VASUDHA": projects/vasudha.md
