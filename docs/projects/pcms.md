@@ -1,15 +1,15 @@
-# Planetary Computer Monitoring System (PCMS)
+# PUSA eCMS: PUSA Cloud-based Monitoring System Desktop (PUSA eCMS Desktop)
 
 ![PCMS](../assets/images/pcms-thumb.png)
 
 ## Overview
 
-The **Planetary Computer Monitoring System (PCMS)** is a robust, dynamic geospatial desktop application designed to stream, process, and analyze Sentinel-2 L2A satellite imagery. By seamlessly integrating multiple backend cloud providers (Google Earth Engine, Microsoft Planetary Computer, and Copernicus Data Space), it empowers users to generate survey-grade agricultural and environmental datasets completely on the fly without downloading massive raw satellite files.
+The **PUSA eCMS: PUSA Cloud-based Monitoring System Desktop (PUSA eCMS Desktop)** is a robust, dynamic geospatial desktop application designed to stream, process, and analyze Sentinel-2 L2A satellite imagery. By seamlessly integrating multiple backend cloud providers (Google Earth Engine, Microsoft Planetary Computer, and Copernicus Data Space), it empowers users to generate survey-grade agricultural and environmental datasets completely on the fly without downloading massive raw satellite files.
 
 ## Key Features
 
 ### Multi-Backend Cloud Streaming
-PCMS utilizes advanced STAC API querying and `rasterio`'s `/vsicurl/` driver to stream data directly from Microsoft Azure and Copernicus servers using HTTP Range Requests. This allows the application to extract only the specific pixels needed for a user-drawn Shapefile or GeoJSON bounding box, cutting data transfer requirements from Gigabytes down to Megabytes.
+PUSA eCMS Desktop utilizes advanced STAC API querying and `rasterio`'s `/vsicurl/` driver to stream data directly from Microsoft Azure and Copernicus servers using HTTP Range Requests. This allows the application to extract only the specific pixels needed for a user-drawn Shapefile or GeoJSON bounding box, cutting data transfer requirements from Gigabytes down to Megabytes.
 
 ### Self-Healing Network Protocol
 Cloud providers like Azure aggressively rate-limit anonymous API access, frequently throwing HTTP 503 errors and dropping connections during massive data streams. To combat this, PCMS features a custom-built, self-healing network retry loop with exponential backoff that automatically catches connection drops and flawlessly resumes data streaming without crashing the application.
