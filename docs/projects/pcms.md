@@ -1,10 +1,10 @@
-# PUSA eCMS: PUSA Cloud-based Monitoring System Desktop (PUSA eCMS Desktop)
+# PUSA Cloud-based Monitoring System Desktop (PUSA eCMS Desktop)
 
 ![PCMS](../assets/images/pcms-thumb.png)
 
 ## Overview
 
-The **PUSA eCMS: PUSA Cloud-based Monitoring System Desktop (PUSA eCMS Desktop)** is a robust, dynamic geospatial desktop application designed to stream, process, and analyze Sentinel-2 L2A satellite imagery. By seamlessly integrating multiple backend cloud providers (Google Earth Engine, Microsoft Planetary Computer, and Copernicus Data Space), it empowers users to generate survey-grade agricultural and environmental datasets completely on the fly without downloading massive raw satellite files.
+The **PUSA Cloud-based Monitoring System Desktop (PUSA eCMS Desktop)** is a robust, dynamic geospatial desktop application designed to stream, process, and analyze Sentinel-2 L2A satellite imagery. By seamlessly integrating multiple backend cloud providers (Google Earth Engine, Microsoft Planetary Computer, and Copernicus Data Space), it empowers users to generate survey-grade agricultural and environmental datasets completely on the fly without downloading massive raw satellite files.
 
 ## Key Features
 
