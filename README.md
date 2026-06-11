@@ -12,6 +12,7 @@ This website serves as a central hub for my research publications, professional 
 
 My portfolio showcases several cutting-edge geospatial and machine learning applications:
 - **PUSA eCMS:** Google Earth Engine-based big data processing for crop health management.
+- **PUSA eCMS Desktop:** Desktop Software that replicates PUSA eCMS and with improved functionality. 
 - **FieldMapper:** Open-source Python photogrammetry application for survey-grade 3D UAV outputs (DSM, DTM, Orthomosaics).
 - **PAUDHA & VASUDHA:** Advanced hyperspectral spectroscopy models for soil and crop trait assessments.
 - **Civ 5 AI Advisor:** Real-time game state extraction and LLM integration tool for Civilization V.
