@@ -1,10 +1,10 @@
-# PUSA Cloud-based Monitoring System Desktop (PUSA eCMS Desktop)
+# PUSA eCMS Desktop
 
-![PCMS](../assets/images/pcms-thumb.png)
+![PUSA eCMS Desktop](../assets/images/pusaecms-desktop-thumb.png)
 
 ## Overview
 
-The **PUSA Cloud-based Monitoring System Desktop (PUSA eCMS Desktop)** is a robust, dynamic geospatial desktop application designed to stream, process, and analyze Sentinel-2 L2A satellite imagery. By seamlessly integrating multiple backend cloud providers (Google Earth Engine, Microsoft Planetary Computer, and Copernicus Data Space), it empowers users to generate survey-grade agricultural and environmental datasets completely on the fly without downloading massive raw satellite files.
+The **PUSA Cloud-based Crop Monitoring System (PUSA eCMS) Desktop** is a robust, dynamic geospatial desktop application designed to stream, process, and analyze Sentinel-2 L2A satellite imagery. By seamlessly integrating multiple backend cloud providers (Google Earth Engine, Microsoft Planetary Computer, and Copernicus Data Space), it empowers users to generate survey-grade agricultural and environmental datasets completely on the fly without downloading massive raw satellite files.
 
 ## Key Features
 
@@ -12,10 +12,10 @@ The **PUSA Cloud-based Monitoring System Desktop (PUSA eCMS Desktop)** is a robu
 PUSA eCMS Desktop utilizes advanced STAC API querying and `rasterio`'s `/vsicurl/` driver to stream data directly from Microsoft Azure and Copernicus servers using HTTP Range Requests. This allows the application to extract only the specific pixels needed for a user-drawn Shapefile or GeoJSON bounding box, cutting data transfer requirements from Gigabytes down to Megabytes.
 
 ### Self-Healing Network Protocol
-Cloud providers like Azure aggressively rate-limit anonymous API access, frequently throwing HTTP 503 errors and dropping connections during massive data streams. To combat this, PCMS features a custom-built, self-healing network retry loop with exponential backoff that automatically catches connection drops and flawlessly resumes data streaming without crashing the application.
+Cloud providers like Azure aggressively rate-limit anonymous API access, frequently throwing HTTP 503 errors and dropping connections during massive data streams. To combat this, PUSA eCMS Desktop features a custom-built, self-healing network retry loop with exponential backoff that automatically catches connection drops and flawlessly resumes data streaming without crashing the application.
 
 ### Biophysical Machine Learning Engine
-Unlike traditional spectral indices (like NDVI), PCMS features an integrated Machine Learning module powered by Scikit-Learn. It leverages pre-trained **Gaussian Process Regressors** to calculate complex biophysical traits from 10-band spectral signatures:
+Unlike traditional spectral indices (like NDVI), PUSA eCMS Desktop features an integrated Machine Learning module powered by Scikit-Learn. It leverages pre-trained **Gaussian Process Regressors** to calculate complex biophysical traits from 10-band spectral signatures:
 - **Leaf Area Index (LAI)**
 - **Canopy Chlorophyll Content (CCC)**
 - **Canopy Water Content (CWC)**

@@ -42,13 +42,13 @@ hide:
 
 <div class="project-card" markdown>
 
-![](assets/images/pcms-thumb.png)
+![](assets/images/pusaecms-desktop-thumb.png)
 
-**[PUSA eCMS Desktop](projects/pcms.md)**
+**[PUSA eCMS Desktop](projects/pusaecms-desktop.md)**
 
 A dynamic, multi-backend application that streams satellite imagery and generates Biophysical models (LAI, CCC, CWC).
 
-[View Project →](projects/pcms.md){ .md-button }
+[View Project →](projects/pusaecms-desktop.md){ .md-button }
 
 </div>
 

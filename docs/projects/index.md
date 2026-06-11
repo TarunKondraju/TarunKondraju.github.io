@@ -5,15 +5,15 @@ A selection of my geospatial products and analytical pipelines. Click any card t
 <div class="grid" markdown>
 
 <div class="project-card" markdown>
-![](../assets/images/pcms-thumb.png)
+![](../assets/images/pusaecms-desktop-thumb.png)
 
-**[PCMS](pcms.md)**
+**[PUSA eCMS Desktop](pusaecms-desktop.md)**
 
-The Planetary Computer Monitoring System (PCMS) is a dynamic, multi-backend application that streams satellite imagery from Google Earth Engine, Planetary Computer, and Copernicus Data Space. It generates multi-band Layerstacks and calculates Biophysical models (LAI, CCC, CWC) on the fly using Gaussian Process Regressors.
+The PUSA Cloud-based Crop Monitoring System (PUSA eCMS) Desktop is a dynamic, multi-backend application that streams satellite imagery from Google Earth Engine, Planetary Computer, and Copernicus Data Space. It generates multi-band Layerstacks and calculates Biophysical models (LAI, CCC, CWC) on the fly using Gaussian Process Regressors.
 
 `Python` `Machine Learning` `PyQt6` `STAC API`
 
-[View Project →](pcms.md){ .md-button }
+[View Project →](pusaecms-desktop.md){ .md-button }
 </div>
 
 <div class="project-card" markdown>
