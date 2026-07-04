@@ -48,4 +48,3 @@ PUSAMIA is an automated pipeline application designed to co-register, layer stac
 
 ## Links
 
-[View Code on GitHub](https://github.com/TarunKondraju){ .md-button }

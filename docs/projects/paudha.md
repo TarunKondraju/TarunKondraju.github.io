@@ -46,4 +46,3 @@ PAUDHA is an analytical tool built to evaluate crop health from massive datasets
 
 ## Links
 
-[View Code on GitHub](https://github.com/TarunKondraju){ .md-button }

@@ -46,4 +46,3 @@ VASUDHA is an analytical application built to monitor crucial soil health parame
 
 ## Links
 
-[View Code on GitHub](https://github.com/TarunKondraju){ .md-button }

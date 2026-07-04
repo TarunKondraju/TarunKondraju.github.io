@@ -36,4 +36,3 @@ The user experience is driven by a highly responsive, multithreaded PyQt6 Graphi
 
 ## Links
 
-[View Code on GitHub](https://github.com/TarunKondraju/PythonCMS){ .md-button }

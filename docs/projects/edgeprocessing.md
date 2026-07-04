@@ -47,4 +47,3 @@ Edge Processing of Multispectral Data is an automated pipeline  designed to co-r
 
 ## Links
 
-[View Code on GitHub](https://github.com/TarunKondraju){ .md-button }

@@ -48,4 +48,3 @@ PUSAECMS is a Google Earth Engine (GEE)-based application designed for the effic
 
 ## Links
 
-[View Code on GitHub](https://github.com/TarunKondraju){ .md-button }

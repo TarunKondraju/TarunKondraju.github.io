@@ -23,4 +23,3 @@ A comprehensive Vedic Astrology dashboard that calculates precise planetary posi
 
 ## Links
 
-[View Code on GitHub](https://github.com/TarunKondraju/PyJHora){ .md-button }

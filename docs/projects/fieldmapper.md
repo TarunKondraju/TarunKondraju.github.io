@@ -47,4 +47,3 @@ FieldMapper is a comprehensive, Python-based photogrammetry application develope
 
 ## Links
 
-[View Code on GitHub](https://github.com/TarunKondraju){ .md-button }
