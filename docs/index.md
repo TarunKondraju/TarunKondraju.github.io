@@ -142,7 +142,7 @@ Live game state extraction and LLM integration tool for Civilization V.
 
 **[TrikaalGuru](projects/trikaalguru.md)**
 
-Predictive agriculture and spatial decision support system.
+Vedic Astrology dashboard with AI chatbot and chart computations.
 
 [View Project →](projects/trikaalguru.md){ .md-button }
 
