@@ -136,4 +136,16 @@ Live game state extraction and LLM integration tool for Civilization V.
 
 </div>
 
+<div class="project-card" markdown>
+
+![](assets/images/trikaalguru-thumb.png)
+
+**[TrikaalGuru](projects/trikaalguru.md)**
+
+Predictive agriculture and spatial decision support system.
+
+[View Project →](projects/trikaalguru.md){ .md-button }
+
+</div>
+
 </div>
