@@ -67,6 +67,7 @@ nav:
   - Home: index.md
   - Projects:
     - "All Projects": projects/index.md
+    - "TrikaalGuru": projects/trikaalguru.md
     - "PUSA eCMS Desktop": projects/pusaecms-desktop.md
     - "Civ 5 AI Advisor": projects/civ5-ai-advisor.md
     - "PAUDHA": projects/paudha.md

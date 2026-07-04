@@ -5,6 +5,18 @@ A selection of my geospatial products and analytical pipelines. Click any card t
 <div class="grid" markdown>
 
 <div class="project-card" markdown>
+![](../assets/images/trikaalguru-thumb.png)
+
+**[TrikaalGuru](trikaalguru.md)**
+
+A comprehensive Vedic Astrology dashboard that calculates precise planetary positions, 16 zodiac divisional charts, and Vimshottari Dashas, with an integrated AI astrologer chat and PDF report export.
+
+`Python` `FastAPI` `JavaScript` `Google Gemini`
+
+[View Project →](trikaalguru.md){ .md-button }
+</div>
+
+<div class="project-card" markdown>
 ![](../assets/images/pusaecms-desktop-thumb.png)
 
 **[PUSA eCMS Desktop](pusaecms-desktop.md)**
