@@ -8,49 +8,84 @@ document.addEventListener("DOMContentLoaded", function() {
         "date": "Unknown",
         "place": "Unknown",
         "event": "Srisailam Reservoir",
-        "name": "Img 20190926 164337782"
-    },
-    {
-        "src": "/assets/images/gallery/Srisailam_Reservoir/IMG_20171014_142332131_HDR.webp",
-        "date": "Unknown",
-        "place": "Unknown",
-        "event": "Srisailam Reservoir",
-        "name": "Img 20171014 142332131 Hdr"
+        "name": ""
     },
     {
         "src": "/assets/images/gallery/Srisailam_Reservoir/IMG_20190926_162858123.webp",
         "date": "Unknown",
         "place": "Unknown",
         "event": "Srisailam Reservoir",
-        "name": "Img 20190926 162858123"
+        "name": ""
     },
     {
         "src": "/assets/images/gallery/Srisailam_Reservoir/IMG_20190926_163358646_HDR.webp",
         "date": "Unknown",
         "place": "Unknown",
         "event": "Srisailam Reservoir",
-        "name": "Img 20190926 163358646 Hdr"
+        "name": ""
     },
     {
         "src": "/assets/images/gallery/Srisailam_Reservoir/IMG_20171014_142335937_HDR.webp",
         "date": "Unknown",
         "place": "Unknown",
         "event": "Srisailam Reservoir",
-        "name": "Img 20171014 142335937 Hdr"
+        "name": ""
     },
     {
-        "src": "/assets/images/gallery/Experiments/20240903_133107.webp",
+        "src": "/assets/images/gallery/Srisailam_Reservoir/Srisailam Dam.webp",
+        "date": "Unknown",
+        "place": "Unknown",
+        "event": "Srisailam Reservoir",
+        "name": "Srisailam Dam"
+    },
+    {
+        "src": "/assets/images/gallery/Experiments/Crop Health Assessment using Proximal Images @ IARI.webp",
         "date": "Unknown",
         "place": "Unknown",
         "event": "Experiments",
-        "name": "20240903 133107"
+        "name": "Crop Health Assessment Using Proximal Images @ Iari"
     },
     {
-        "src": "/assets/images/gallery/Experiments/20240314_124325.webp",
+        "src": "/assets/images/gallery/Experiments/Spectroradiometers based Assessment of Crop Health @ IARI.webp",
         "date": "Unknown",
         "place": "Unknown",
         "event": "Experiments",
-        "name": "20240314 124325"
+        "name": "Spectroradiometers Based Assessment Of Crop Health @ Iari"
+    },
+    {
+        "src": "/assets/images/gallery/Big_Data_Analytics_Lab/BDL lab Lunch get-together.webp",
+        "date": "Unknown",
+        "place": "Unknown",
+        "event": "Big Data Analytics Lab",
+        "name": "Bdl Lab Lunch Get Together"
+    },
+    {
+        "src": "/assets/images/gallery/Big_Data_Analytics_Lab/Dr Jochem Verrelst.webp",
+        "date": "Unknown",
+        "place": "Unknown",
+        "event": "Big Data Analytics Lab",
+        "name": "Dr Jochem Verrelst"
+    },
+    {
+        "src": "/assets/images/gallery/Big_Data_Analytics_Lab/With Dr Ali.webp",
+        "date": "Unknown",
+        "place": "Unknown",
+        "event": "Big Data Analytics Lab",
+        "name": "With Dr Ali"
+    },
+    {
+        "src": "/assets/images/gallery/Big_Data_Analytics_Lab/Mr. Purushottam Giving us Training on Hyperpsectral Sensor Calibration.webp",
+        "date": "Unknown",
+        "place": "Unknown",
+        "event": "Big Data Analytics Lab",
+        "name": "Mr. Purushottam Giving Us Training On Hyperpsectral Sensor Calibration"
+    },
+    {
+        "src": "/assets/images/gallery/Big_Data_Analytics_Lab/Hyperspectral Data Collection.webp",
+        "date": "Unknown",
+        "place": "Unknown",
+        "event": "Big Data Analytics Lab",
+        "name": "Hyperspectral Data Collection"
     },
     {
         "src": "/assets/images/gallery/Tarun/Flying_AgricultureDrones.webp",
@@ -127,91 +162,42 @@ document.addEventListener("DOMContentLoaded", function() {
         "date": "Unknown",
         "place": "Unknown",
         "event": "Tarun",
-        "name": "Img 20230205 181744"
+        "name": ""
     },
     {
-        "src": "/assets/images/gallery/Prominent_People_in_my_Professional_Life/Dr Rabi Babu Mandla/20251117_190220.webp",
+        "src": "/assets/images/gallery/Prominent_People_in_my_Professional_Life/Dr Rabi Babu Mandla/Dr Rabi Babu Mandla During his Delhi Visit.webp",
         "date": "Unknown",
         "place": "Prominent People In My Professional Life",
         "event": "Dr Rabi Babu Mandla",
-        "name": "20251117 190220"
+        "name": "Dr Rabi Babu Mandla During His Delhi Visit"
     },
     {
-        "src": "/assets/images/gallery/Prominent_People_in_my_Professional_Life/Dr Rabi Babu Mandla/20251117_185701.webp",
+        "src": "/assets/images/gallery/Prominent_People_in_my_Professional_Life/Dr Rabi Babu Mandla/Dr Rabi Babu Mandla During his Delhi Visit @ India Gate.webp",
         "date": "Unknown",
         "place": "Prominent People In My Professional Life",
         "event": "Dr Rabi Babu Mandla",
-        "name": "20251117 185701"
+        "name": "Dr Rabi Babu Mandla During His Delhi Visit @ India Gate"
     },
     {
-        "src": "/assets/images/gallery/Prominent_People_in_my_Professional_Life/Dr Rabi Babu Mandla/20251117_185354.webp",
+        "src": "/assets/images/gallery/Prominent_People_in_my_Professional_Life/Dr Rabi Babu Mandla/Dr Rabi Babu Mandla During his Delhi Visit India Gate.webp",
         "date": "Unknown",
         "place": "Prominent People In My Professional Life",
         "event": "Dr Rabi Babu Mandla",
-        "name": "20251117 185354"
+        "name": "Dr Rabi Babu Mandla During His Delhi Visit India Gate"
     },
     {
-        "src": "/assets/images/gallery/Prominent_People_in_my_Professional_Life/Dr Rabi Babu Mandla/20251117_185343.webp",
+        "src": "/assets/images/gallery/Prominent_People_in_my_Professional_Life/Dr Rabi Babu Mandla/Dr Rabi Babu Mandla During his Delhi Visit_Kartavya path.webp",
         "date": "Unknown",
         "place": "Prominent People In My Professional Life",
         "event": "Dr Rabi Babu Mandla",
-        "name": "20251117 185343"
+        "name": "Dr Rabi Babu Mandla During His Delhi Visit Kartavya Path"
     },
     {
-        "src": "/assets/images/gallery/Prominent_People_in_my_Professional_Life/Big_Data_Analytics_Lab/20260325_113605.webp",
-        "date": "Unknown",
-        "place": "Prominent People In My Professional Life",
-        "event": "Big Data Analytics Lab",
-        "name": "20260325 113605"
-    },
-    {
-        "src": "/assets/images/gallery/Prominent_People_in_my_Professional_Life/Big_Data_Analytics_Lab/IMG_20221115_133838.webp",
-        "date": "Unknown",
-        "place": "Prominent People In My Professional Life",
-        "event": "Big Data Analytics Lab",
-        "name": "Img 20221115 133838"
-    },
-    {
-        "src": "/assets/images/gallery/Prominent_People_in_my_Professional_Life/Big_Data_Analytics_Lab/IMG_20221223_154731.webp",
-        "date": "Unknown",
-        "place": "Prominent People In My Professional Life",
-        "event": "Big Data Analytics Lab",
-        "name": "Img 20221223 154731"
-    },
-    {
-        "src": "/assets/images/gallery/Prominent_People_in_my_Professional_Life/Big_Data_Analytics_Lab/IMG_20221223_154733.webp",
-        "date": "Unknown",
-        "place": "Prominent People In My Professional Life",
-        "event": "Big Data Analytics Lab",
-        "name": "Img 20221223 154733"
-    },
-    {
-        "src": "/assets/images/gallery/Prominent_People_in_my_Professional_Life/Big_Data_Analytics_Lab/IMG_20221011_140145.webp",
-        "date": "Unknown",
-        "place": "Prominent People In My Professional Life",
-        "event": "Big Data Analytics Lab",
-        "name": "Img 20221011 140145"
-    },
-    {
-        "src": "/assets/images/gallery/Prominent_People_in_my_Professional_Life/Big_Data_Analytics_Lab/20250725_165040.webp",
-        "date": "Unknown",
-        "place": "Prominent People In My Professional Life",
-        "event": "Big Data Analytics Lab",
-        "name": "20250725 165040"
-    },
-    {
-        "src": "/assets/images/gallery/Prominent_People_in_my_Professional_Life/Big_Data_Analytics_Lab/IMG_0143.webp",
-        "date": "Unknown",
-        "place": "Prominent People In My Professional Life",
-        "event": "Big Data Analytics Lab",
-        "name": "Img 0143"
-    },
-    {
-        "src": "/assets/images/gallery/Prominent_People_in_my_Professional_Life/Dr Rajan/IMG_20171120_162647273_HDR.webp",
+        "src": "/assets/images/gallery/Prominent_People_in_my_Professional_Life/Dr Rajan/Dr K. S. Rajan @ IIIT Hyderabad.webp",
         "date": "Unknown",
         "place": "Prominent People In My Professional Life",
         "event": "Dr Rajan",
-        "name": "Img 20171120 162647273 Hdr"
+        "name": "Dr K. S. Rajan @ Iiit Hyderabad"
     },
     {
         "src": "/assets/images/gallery/Prominent_People_in_my_Professional_Life/Dr Rajan/How_approach_a_GIS_Problem.webp",
@@ -221,235 +207,235 @@ document.addEventListener("DOMContentLoaded", function() {
         "name": "How Approach A Gis Problem"
     },
     {
-        "src": "/assets/images/gallery/Prominent_People_in_my_Professional_Life/Dr Rabi N. Sahoo/20241207_113238.webp",
+        "src": "/assets/images/gallery/Prominent_People_in_my_Professional_Life/Dr Rabi N. Sahoo/Dr Rabi N Sahoo with Deligates.webp",
         "date": "Unknown",
         "place": "Prominent People In My Professional Life",
         "event": "Dr Rabi N. Sahoo",
-        "name": "20241207 113238"
+        "name": "Dr Rabi N Sahoo With Deligates"
     },
     {
-        "src": "/assets/images/gallery/Prominent_People_in_my_Professional_Life/Dr Rabi N. Sahoo/20241207_113016.webp",
+        "src": "/assets/images/gallery/Prominent_People_in_my_Professional_Life/Dr Rabi N. Sahoo/Dr Rabi N Sahoo.webp",
         "date": "Unknown",
         "place": "Prominent People In My Professional Life",
         "event": "Dr Rabi N. Sahoo",
-        "name": "20241207 113016"
+        "name": "Dr Rabi N Sahoo"
     },
     {
-        "src": "/assets/images/gallery/Prominent_People_in_my_Professional_Life/Dr Rabi N. Sahoo/IMG_20230301_152333.webp",
+        "src": "/assets/images/gallery/Prominent_People_in_my_Professional_Life/Dr Rabi N. Sahoo/Dr Rabi N Sahoo with Full Range Hyperspectral Camera.webp",
         "date": "Unknown",
         "place": "Prominent People In My Professional Life",
         "event": "Dr Rabi N. Sahoo",
-        "name": "Img 20230301 152333"
+        "name": "Dr Rabi N Sahoo With Full Range Hyperspectral Camera"
     },
     {
-        "src": "/assets/images/gallery/Prominent_People_in_my_Professional_Life/Dr Rabi N. Sahoo/IMG_20220628_193110.webp",
+        "src": "/assets/images/gallery/Prominent_People_in_my_Professional_Life/Dr Rabi N. Sahoo/Dr Rabi N Sahoo with Bill Gates During his Visit @ IARI.webp",
         "date": "Unknown",
         "place": "Prominent People In My Professional Life",
         "event": "Dr Rabi N. Sahoo",
-        "name": "Img 20220628 193110"
+        "name": "Dr Rabi N Sahoo With Bill Gates During His Visit @ Iari"
     },
     {
-        "src": "/assets/images/gallery/Prominent_People_in_my_Professional_Life/Dr Rabi N. Sahoo/20241207_113033.webp",
+        "src": "/assets/images/gallery/Prominent_People_in_my_Professional_Life/Dr Rabi N. Sahoo/Dr Rabi N Sahoo, ELU lab @ IARI.webp",
         "date": "Unknown",
         "place": "Prominent People In My Professional Life",
         "event": "Dr Rabi N. Sahoo",
-        "name": "20241207 113033"
+        "name": "Dr Rabi N Sahoo, Elu Lab @ Iari"
     },
     {
-        "src": "/assets/images/gallery/Prominent_People_in_my_Professional_Life/Dr Rabi N. Sahoo/20241207_114201.webp",
+        "src": "/assets/images/gallery/Prominent_People_in_my_Professional_Life/Dr Rabi N. Sahoo/Experiantial Learning Unit (ELU) @ IARI.webp",
         "date": "Unknown",
         "place": "Prominent People In My Professional Life",
         "event": "Dr Rabi N. Sahoo",
-        "name": "20241207 114201"
+        "name": "Experiantial Learning Unit (Elu) @ Iari"
     },
     {
-        "src": "/assets/images/gallery/Rakhadibaba_Ashram/PXL_20210609_111521857.MP.webp",
+        "src": "/assets/images/gallery/Rakhadibaba_Ashram/Homan being performed by Poorna Padmakka.webp",
         "date": "Unknown",
         "place": "Unknown",
         "event": "Rakhadibaba Ashram",
-        "name": "Pxl 20210609 111521857.Mp"
+        "name": "Homan Being Performed By Poorna Padmakka"
     },
     {
-        "src": "/assets/images/gallery/Rakhadibaba_Ashram/PXL_20210609_111514789.MP.webp",
+        "src": "/assets/images/gallery/Rakhadibaba_Ashram/Homagundam.webp",
         "date": "Unknown",
         "place": "Unknown",
         "event": "Rakhadibaba Ashram",
-        "name": "Pxl 20210609 111514789.Mp"
+        "name": "Homagundam"
     },
     {
         "src": "/assets/images/gallery/IIIT_Hyderabad/IMG_20151007_061206.webp",
         "date": "Unknown",
         "place": "Unknown",
         "event": "Iiit Hyderabad",
-        "name": "Img 20151007 061206"
+        "name": ""
     },
     {
         "src": "/assets/images/gallery/IIIT_Hyderabad/IMG_20151007_061200.webp",
         "date": "Unknown",
         "place": "Unknown",
         "event": "Iiit Hyderabad",
-        "name": "Img 20151007 061200"
+        "name": ""
     },
     {
         "src": "/assets/images/gallery/IIIT_Hyderabad/IMG_20151007_061121.webp",
         "date": "Unknown",
         "place": "Unknown",
         "event": "Iiit Hyderabad",
-        "name": "Img 20151007 061121"
+        "name": ""
     },
     {
         "src": "/assets/images/gallery/Indian_Agriculural_Research_Institute/IMG_20220909_181025.webp",
         "date": "Unknown",
         "place": "Unknown",
         "event": "Indian Agriculural Research Institute",
-        "name": "Img 20220909 181025"
+        "name": ""
     },
     {
         "src": "/assets/images/gallery/Indian_Agriculural_Research_Institute/IMG_20220827_124854.webp",
         "date": "Unknown",
         "place": "Unknown",
         "event": "Indian Agriculural Research Institute",
-        "name": "Img 20220827 124854"
+        "name": ""
     },
     {
         "src": "/assets/images/gallery/Indian_Agriculural_Research_Institute/IMG_20220302_181058.webp",
         "date": "Unknown",
         "place": "Unknown",
         "event": "Indian Agriculural Research Institute",
-        "name": "Img 20220302 181058"
+        "name": ""
     },
     {
         "src": "/assets/images/gallery/Indian_Agriculural_Research_Institute/IMG_20220827_124850.webp",
         "date": "Unknown",
         "place": "Unknown",
         "event": "Indian Agriculural Research Institute",
-        "name": "Img 20220827 124850"
+        "name": ""
     },
     {
         "src": "/assets/images/gallery/Indian_Agriculural_Research_Institute/IMG_20220302_181107.webp",
         "date": "Unknown",
         "place": "Unknown",
         "event": "Indian Agriculural Research Institute",
-        "name": "Img 20220302 181107"
+        "name": ""
     },
     {
         "src": "/assets/images/gallery/Indian_Agriculural_Research_Institute/20241021_105803.webp",
         "date": "Unknown",
         "place": "Unknown",
         "event": "Indian Agriculural Research Institute",
-        "name": "20241021 105803"
+        "name": ""
     },
     {
         "src": "/assets/images/gallery/Indian_Agriculural_Research_Institute/IMG_20220723_092408.webp",
         "date": "Unknown",
         "place": "Unknown",
         "event": "Indian Agriculural Research Institute",
-        "name": "Img 20220723 092408"
+        "name": ""
     },
     {
         "src": "/assets/images/gallery/Indian_Agriculural_Research_Institute/IMG_20220721_092907.webp",
         "date": "Unknown",
         "place": "Unknown",
         "event": "Indian Agriculural Research Institute",
-        "name": "Img 20220721 092907"
+        "name": ""
     },
     {
         "src": "/assets/images/gallery/Indian_Agriculural_Research_Institute/IMG_20220721_092911.webp",
         "date": "Unknown",
         "place": "Unknown",
         "event": "Indian Agriculural Research Institute",
-        "name": "Img 20220721 092911"
+        "name": ""
     },
     {
         "src": "/assets/images/gallery/Indian_Agriculural_Research_Institute/IMG_20220909_181104.webp",
         "date": "Unknown",
         "place": "Unknown",
         "event": "Indian Agriculural Research Institute",
-        "name": "Img 20220909 181104"
+        "name": ""
     },
     {
         "src": "/assets/images/gallery/Indian_Agriculural_Research_Institute/20250113_131634.webp",
         "date": "Unknown",
         "place": "Unknown",
         "event": "Indian Agriculural Research Institute",
-        "name": "20250113 131634"
+        "name": ""
     },
     {
         "src": "/assets/images/gallery/Indian_Agriculural_Research_Institute/20240909_173307.webp",
         "date": "Unknown",
         "place": "Unknown",
         "event": "Indian Agriculural Research Institute",
-        "name": "20240909 173307"
+        "name": ""
     },
     {
         "src": "/assets/images/gallery/Indian_Agriculural_Research_Institute/IMG_20220302_181053.webp",
         "date": "Unknown",
         "place": "Unknown",
         "event": "Indian Agriculural Research Institute",
-        "name": "Img 20220302 181053"
+        "name": ""
     },
     {
-        "src": "/assets/images/gallery/Events/IMC/20241018_114056.webp",
+        "src": "/assets/images/gallery/Events/IMC/ICAR DG and other Deligates @ ICAR stall.webp",
         "date": "Unknown",
         "place": "Events",
         "event": "Imc",
-        "name": "20241018 114056"
+        "name": "Icar Dg And Other Deligates @ Icar Stall"
     },
     {
-        "src": "/assets/images/gallery/Events/IMC/20241018_115509.webp",
+        "src": "/assets/images/gallery/Events/IMC/Deligates @ ICAR stall.webp",
         "date": "Unknown",
         "place": "Events",
         "event": "Imc",
-        "name": "20241018 115509"
+        "name": "Deligates @ Icar Stall"
     },
     {
-        "src": "/assets/images/gallery/Events/IMC/20241016_145318.webp",
+        "src": "/assets/images/gallery/Events/IMC/ICAR DG @ ICAR stall.webp",
         "date": "Unknown",
         "place": "Events",
         "event": "Imc",
-        "name": "20241016 145318"
+        "name": "Icar Dg @ Icar Stall"
     },
     {
-        "src": "/assets/images/gallery/Events/IMC/20241018_114942.webp",
+        "src": "/assets/images/gallery/Events/IMC/IMC 2024 @ Bharatmandapam.webp",
         "date": "Unknown",
         "place": "Events",
         "event": "Imc",
-        "name": "20241018 114942"
+        "name": "Imc 2024 @ Bharatmandapam"
     },
     {
-        "src": "/assets/images/gallery/Events/ESTIC_2025/20251105_132851.webp",
+        "src": "/assets/images/gallery/Events/ESTIC_2025/ESTIC@Bharatmandapam.webp",
         "date": "Unknown",
         "place": "Events",
         "event": "Estic 2025",
-        "name": "20251105 132851"
+        "name": "Estic@Bharatmandapam"
     },
     {
-        "src": "/assets/images/gallery/Events/AI Summit/20260216_114926.webp",
+        "src": "/assets/images/gallery/Events/AI Summit/Attending AI Summit.webp",
         "date": "Unknown",
         "place": "Events",
         "event": "Ai Summit",
-        "name": "20260216 114926"
+        "name": "Attending Ai Summit"
     },
     {
-        "src": "/assets/images/gallery/Events/ICRISAT/20260316_144119.webp",
+        "src": "/assets/images/gallery/Events/ICRISAT/Training UN officials from Africa.webp",
         "date": "Unknown",
         "place": "Events",
         "event": "Icrisat",
-        "name": "20260316 144119"
+        "name": "Training Un Officials From Africa"
     },
     {
-        "src": "/assets/images/gallery/Events/ICRISAT/20260316_144139.webp",
+        "src": "/assets/images/gallery/Events/ICRISAT/Training UN official from Africa on VRT technology.webp",
         "date": "Unknown",
         "place": "Events",
         "event": "Icrisat",
-        "name": "20260316 144139"
+        "name": "Training Un Official From Africa On Vrt Technology"
     },
     {
-        "src": "/assets/images/gallery/Events/NePPA_Showcase/IMG_20220310_122114.webp",
+        "src": "/assets/images/gallery/Events/NePPA_Showcase/NePPA Stall at Farmers Mela @ IARI 2022.webp",
         "date": "Unknown",
         "place": "Events",
         "event": "Neppa Showcase",
-        "name": "Img 20220310 122114"
+        "name": "Neppa Stall At Farmers Mela @ Iari 2022"
     },
     {
         "src": "/assets/images/gallery/Swamy_Srisrisri_Poornanndaji_Ashram/Swamiji_Chair.webp",
@@ -631,7 +617,12 @@ document.addEventListener("DOMContentLoaded", function() {
       if (item.date !== 'Unknown') metaParts.push(item.date);
       if (item.place !== 'Unknown') metaParts.push(item.place);
       if (metaParts.length > 0) {
-         caption += ` (${metaParts.join(' - ')})`;
+         let metaStr = metaParts.join(' - ');
+         if (caption) {
+             caption += ` (${metaStr})`;
+         } else {
+             caption = metaStr;
+         }
       }
       heroCaption.textContent = caption;
 

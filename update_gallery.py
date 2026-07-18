@@ -88,7 +88,11 @@ def update_gallery():
             event = clean_name(event)
                 
             filename_no_ext = os.path.splitext(file)[0]
-            name = filename_no_ext.replace("_", " ").replace("-", " ").title()
+            is_generic = bool(re.search(r'^(img|pxl|dsc|vid|wa\d{4}|\d{8}_\d{6})', filename_no_ext.lower()))
+            if is_generic:
+                name = ""
+            else:
+                name = filename_no_ext.replace("_", " ").replace("-", " ").title()
 
             # Destination webp path
             dest_rel_path = os.path.splitext(rel_path)[0] + ".webp"
@@ -194,7 +198,12 @@ def update_gallery():
       if (item.date !== 'Unknown') metaParts.push(item.date);
       if (item.place !== 'Unknown') metaParts.push(item.place);
       if (metaParts.length > 0) {{
-         caption += ` (${{metaParts.join(' - ')}})`;
+         let metaStr = metaParts.join(' - ');
+         if (caption) {{
+             caption += ` (${{metaStr}})`;
+         }} else {{
+             caption = metaStr;
+         }}
       }}
       heroCaption.textContent = caption;
 
