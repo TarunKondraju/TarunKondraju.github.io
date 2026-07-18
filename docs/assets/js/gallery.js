@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", function() {
-  const galleryGrid = document.getElementById('gallery-grid');
-  if (!galleryGrid) return;
+  const albumGridCheck = document.getElementById('album-grid');
+  if (!albumGridCheck) return;
 
   const galleryData = [
     {

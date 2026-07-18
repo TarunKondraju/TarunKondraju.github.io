@@ -113,8 +113,8 @@ def update_gallery():
 
     # Generate the new JS content
     js_content = f"""document.addEventListener("DOMContentLoaded", function() {{
-  const galleryGrid = document.getElementById('gallery-grid');
-  if (!galleryGrid) return;
+  const albumGridCheck = document.getElementById('album-grid');
+  if (!albumGridCheck) return;
 
   const galleryData = {json.dumps(new_entries, indent=4)};
 
