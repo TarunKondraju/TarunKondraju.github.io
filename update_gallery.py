@@ -96,8 +96,8 @@ def update_gallery():
                 print(f"Optimizing: {rel_path} -> {dest_rel_path}")
                 optimize_image(src_file_path, dest_file_path)
 
-            # Web path for JS
-            web_path = f"assets/images/gallery/{dest_rel_path.replace(os.sep, '/')}"
+            # Web path for JS (absolute so it works on any page)
+            web_path = f"/assets/images/gallery/{dest_rel_path.replace(os.sep, '/')}"
             
             new_entries.append({
                 "src": web_path,
@@ -118,99 +118,97 @@ def update_gallery():
 
   const galleryData = {json.dumps(new_entries, indent=4)};
 
-  const dateFilter = document.getElementById('date-filter');
-  const placeFilter = document.getElementById('place-filter');
-  const eventFilter = document.getElementById('event-filter');
-  const nameFilter = document.getElementById('name-filter');
-
-  function populateFilters() {{
-    const dates = new Set();
-    const places = new Set();
-    const events = new Set();
-    const names = new Set();
-
-    galleryData.forEach(item => {{
-      dates.add(item.date);
-      places.add(item.place);
-      events.add(item.event);
-      names.add(item.name);
-    }});
-
-    // Helper to generate options
-    const createOptions = (set, filterElement) => {{
-       [...set].sort().forEach(val => filterElement.innerHTML += `<option value="${{val}}">${{val}}</option>`);
-    }};
-
-    createOptions(dates, dateFilter);
-    if(placeFilter) createOptions(places, placeFilter);
-    createOptions(events, eventFilter);
-    createOptions(names, nameFilter);
-  }}
-
-  function renderGallery() {{
-    const selectedDate = dateFilter.value;
-    const selectedPlace = placeFilter ? placeFilter.value : 'all';
-    const selectedEvent = eventFilter.value;
-    const selectedName = nameFilter.value;
-
-    galleryGrid.innerHTML = '';
-
-    const filteredData = galleryData.filter(item => {{
-      const matchDate = selectedDate === 'all' || item.date === selectedDate;
-      const matchPlace = selectedPlace === 'all' || item.place === selectedPlace;
-      const matchEvent = selectedEvent === 'all' || item.event === selectedEvent;
-      const matchName = selectedName === 'all' || item.name === selectedName;
-      return matchDate && matchPlace && matchEvent && matchName;
-    }});
-
-    if (filteredData.length === 0) {{
-      galleryGrid.innerHTML = '<p>No photos found matching the selected filters.</p>';
-      return;
+  // Group photos by Event (Album)
+  const albums = {{}};
+  galleryData.forEach(item => {{
+    const albumName = item.event;
+    if (!albums[albumName]) {{
+      albums[albumName] = [];
     }}
+    albums[albumName].push(item);
+  }});
 
-    filteredData.forEach(item => {{
-      const div = document.createElement('div');
-      div.className = 'gallery-item';
+  const albumGrid = document.getElementById('album-grid');
+  const albumView = document.getElementById('album-view');
+  const btnBack = document.getElementById('back-to-albums');
+  const albumTitle = document.getElementById('album-title');
+  const heroImg = document.getElementById('hero-img');
+  const heroCaption = document.getElementById('hero-caption');
+  const thumbnailRow = document.getElementById('thumbnail-row');
+
+  // Render the Album Grid
+  function renderAlbumGrid() {{
+    albumGrid.style.display = 'grid';
+    albumView.style.display = 'none';
+    albumGrid.innerHTML = '';
+
+    Object.keys(albums).sort().forEach(albumName => {{
+      const photos = albums[albumName];
+      const coverPhoto = photos[0]; // First photo as cover
+
+      const card = document.createElement('div');
+      card.className = 'album-card';
       
-      // Determine caption
-      let caption = item.date;
-      if (item.place !== 'Unknown') caption += ` • ${{item.place}}`;
-      if (item.event !== 'Unknown') caption += ` • ${{item.event}}`;
+      let metaText = coverPhoto.date;
+      if (coverPhoto.place !== 'Unknown') metaText += ` • ${{coverPhoto.place}}`;
 
-      div.innerHTML = `
-        <img src="${{item.src}}" alt="${{item.name}}" loading="lazy">
-        <div class="gallery-item-overlay">
-          <p class="gallery-item-title">${{item.name}}</p>
-          <p class="gallery-item-meta">${{caption}}</p>
+      card.innerHTML = `
+        <img src="${{coverPhoto.src}}" alt="${{albumName}}" class="album-cover" loading="lazy">
+        <div class="album-info">
+          <h3 class="album-name">${{albumName}}</h3>
+          <p class="album-meta">${{metaText}} (${{photos.length}} photos)</p>
         </div>
       `;
-      
-      div.addEventListener('click', () => openLightbox(item, caption));
-      galleryGrid.appendChild(div);
+
+      card.addEventListener('click', () => openAlbum(albumName));
+      albumGrid.appendChild(card);
     }});
   }}
 
-  const lightbox = document.getElementById('lightbox');
-  const lightboxImg = document.getElementById('lightbox-img');
-  const lightboxCaption = document.getElementById('lightbox-caption');
-  const closeBtn = document.getElementsByClassName('lightbox-close')[0];
+  // Open specific album
+  function openAlbum(albumName) {{
+    albumGrid.style.display = 'none';
+    albumView.style.display = 'flex';
+    albumTitle.textContent = albumName;
+    
+    const photos = albums[albumName];
+    thumbnailRow.innerHTML = '';
 
-  function openLightbox(item, captionText) {{
-    lightbox.style.display = "block";
-    lightboxImg.src = item.src;
-    lightboxCaption.innerHTML = `<b>${{item.name}}</b><br>${{captionText}}`;
+    // Function to set Hero Image
+    const setHero = (item, thumbEl) => {{
+      heroImg.src = item.src;
+      let caption = item.name;
+      if (item.place !== 'Unknown' || item.date !== 'Unknown') {{
+         caption += ` (${{item.date}} - ${{item.place}})`;
+      }}
+      heroCaption.textContent = caption;
+
+      // Update active thumbnail outline
+      document.querySelectorAll('.thumbnail-row img').forEach(img => img.classList.remove('active'));
+      if (thumbEl) thumbEl.classList.add('active');
+    }};
+
+    // Render Thumbnails
+    photos.forEach((item, index) => {{
+      const img = document.createElement('img');
+      img.src = item.src;
+      img.alt = item.name;
+      img.loading = 'lazy';
+      
+      img.addEventListener('click', () => setHero(item, img));
+      thumbnailRow.appendChild(img);
+
+      // Set first image as default hero
+      if (index === 0) {{
+        setHero(item, img);
+      }}
+    }});
   }}
 
-  closeBtn.onclick = () => lightbox.style.display = "none";
-  lightbox.onclick = (e) => {{ if (e.target === lightbox) lightbox.style.display = "none"; }};
+  btnBack.addEventListener('click', renderAlbumGrid);
 
-  dateFilter.addEventListener('change', renderGallery);
-  if(placeFilter) placeFilter.addEventListener('change', renderGallery);
-  eventFilter.addEventListener('change', renderGallery);
-  nameFilter.addEventListener('change', renderGallery);
-
-  populateFilters();
-  renderGallery();
+  // Initialize
+  renderAlbumGrid();
 }});
 """
     # Write directly to the JS file, overwriting the entire script

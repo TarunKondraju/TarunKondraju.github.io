@@ -1,39 +1,19 @@
 # Gallery
 
-<div class="gallery-controls">
-  <div class="filter-group">
-    <label for="date-filter">Date:</label>
-    <select id="date-filter" class="gallery-select">
-      <option value="all">All Dates</option>
-    </select>
-  </div>
-  <div class="filter-group">
-    <label for="place-filter">Place:</label>
-    <select id="place-filter" class="gallery-select">
-      <option value="all">All Places</option>
-    </select>
-  </div>
-  <div class="filter-group">
-    <label for="event-filter">Event:</label>
-    <select id="event-filter" class="gallery-select">
-      <option value="all">All Events</option>
-    </select>
-  </div>
-  <div class="filter-group">
-    <label for="name-filter">Name:</label>
-    <select id="name-filter" class="gallery-select">
-      <option value="all">All Names</option>
-    </select>
-  </div>
+<div id="album-grid" class="album-grid">
+  <!-- Album cards will be injected here via JavaScript -->
 </div>
 
-<div id="gallery-grid" class="gallery-grid">
-  <!-- Photos will be injected here via JavaScript -->
-</div>
+<div id="album-view" class="album-view" style="display: none;">
+  <button id="back-to-albums" class="md-button back-btn">← Back to Albums</button>
+  <h2 id="album-title" class="album-title"></h2>
+  
+  <div class="hero-container">
+    <img id="hero-img" class="hero-img" src="" alt="Selected Photo">
+    <div id="hero-caption" class="hero-caption"></div>
+  </div>
 
-<!-- Lightbox Modal -->
-<div id="lightbox" class="lightbox">
-  <span class="lightbox-close">&times;</span>
-  <img class="lightbox-content" id="lightbox-img">
-  <div id="lightbox-caption" class="lightbox-caption"></div>
+  <div id="thumbnail-row" class="thumbnail-row">
+    <!-- Thumbnails injected here -->
+  </div>
 </div>
