@@ -589,14 +589,22 @@ document.addEventListener("DOMContentLoaded", function() {
       const card = document.createElement('div');
       card.className = 'album-card';
       
-      let metaText = coverPhoto.date;
-      if (coverPhoto.place !== 'Unknown') metaText += ` • ${coverPhoto.place}`;
+      let metaParts = [];
+      if (coverPhoto.date !== 'Unknown') metaParts.push(coverPhoto.date);
+      if (coverPhoto.place !== 'Unknown') metaParts.push(coverPhoto.place);
+      
+      let metaText = metaParts.join(' • ');
+      if (metaText) {
+        metaText += ` (${photos.length} photos)`;
+      } else {
+        metaText = `${photos.length} photos`;
+      }
 
       card.innerHTML = `
         <img src="${coverPhoto.src}" alt="${albumName}" class="album-cover" loading="lazy">
         <div class="album-info">
           <h3 class="album-name">${albumName}</h3>
-          <p class="album-meta">${metaText} (${photos.length} photos)</p>
+          <p class="album-meta">${metaText}</p>
         </div>
       `;
 
@@ -618,8 +626,12 @@ document.addEventListener("DOMContentLoaded", function() {
     const setHero = (item, thumbEl) => {
       heroImg.src = item.src;
       let caption = item.name;
-      if (item.place !== 'Unknown' || item.date !== 'Unknown') {
-         caption += ` (${item.date} - ${item.place})`;
+      
+      let metaParts = [];
+      if (item.date !== 'Unknown') metaParts.push(item.date);
+      if (item.place !== 'Unknown') metaParts.push(item.place);
+      if (metaParts.length > 0) {
+         caption += ` (${metaParts.join(' - ')})`;
       }
       heroCaption.textContent = caption;
 
