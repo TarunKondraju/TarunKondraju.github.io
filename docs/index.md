@@ -142,7 +142,7 @@ Live game state extraction and LLM integration tool for Civilization V.
 
 **[TrikaalGuru](projects/trikaalguru.md)**
 
-Vedic Astrology dashboard with AI chatbot and chart computations.
+Website for Vedic and KP system based astrology predictions and kundali matching for individuals.
 
 [View Project →](projects/trikaalguru.md){ .md-button }
 

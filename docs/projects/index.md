@@ -9,7 +9,7 @@ A selection of my geospatial products and analytical pipelines. Click any card t
 
 **[TrikaalGuru](trikaalguru.md)**
 
-A comprehensive Vedic Astrology dashboard that calculates precise planetary positions, 16 zodiac divisional charts, and Vimshottari Dashas, with an integrated AI astrologer chat and PDF report export.
+A comprehensive website for Vedic and KP system based astrology predictions and kundali matching for individuals. It also calculates precise planetary positions, 16 zodiac divisional charts, and Vimshottari Dashas, with an integrated AI astrologer chat.
 
 `Python` `FastAPI` `JavaScript` `Google Gemini`
 
