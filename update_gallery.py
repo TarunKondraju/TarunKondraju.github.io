@@ -61,12 +61,22 @@ def update_gallery():
             parts = rel_path.split(os.sep)
             
             year, place, event = "Unknown", "Unknown", "Unknown"
+            
+            import re
+            is_year = lambda x: bool(re.match(r'^\d{4}$', x))
+
             if len(parts) >= 4:
                 year, place, event = parts[0], parts[1], parts[2]
             elif len(parts) == 3:
-                year, place = parts[0], parts[1]
+                if is_year(parts[0]):
+                    year, place, event = parts[0], "Unknown", parts[1]
+                else:
+                    year, place, event = "Unknown", parts[0], parts[1]
             elif len(parts) == 2:
-                year = parts[0]
+                if is_year(parts[0]):
+                    year = parts[0]
+                else:
+                    event = parts[0]
                 
             filename_no_ext = os.path.splitext(file)[0]
             name = filename_no_ext.replace("_", " ").replace("-", " ").title()
