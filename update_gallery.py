@@ -77,6 +77,12 @@ def update_gallery():
                     year = parts[0]
                 else:
                     event = parts[0]
+            
+            # Clean up names for display
+            clean_name = lambda x: x.replace("_", " ").replace("-", " ").title() if x != "Unknown" else x
+            year = clean_name(year) if not is_year(year) else year
+            place = clean_name(place)
+            event = clean_name(event)
                 
             filename_no_ext = os.path.splitext(file)[0]
             name = filename_no_ext.replace("_", " ").replace("-", " ").title()
