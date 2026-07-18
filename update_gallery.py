@@ -44,7 +44,7 @@ def update_gallery():
     # Ensure optimized directory exists
     os.makedirs(OPT_DIR, exist_ok=True)
 
-    valid_extensions = {".jpg", ".jpeg", ".png", ".webp"}
+    valid_extensions = {".jpg", ".jpeg", ".png", ".webp", ".tiff", ".tif"}
     new_entries = []
 
     # Walk through the raw gallery directory
