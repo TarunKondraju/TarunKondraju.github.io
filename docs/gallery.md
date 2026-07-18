@@ -8,6 +8,12 @@
     </select>
   </div>
   <div class="filter-group">
+    <label for="place-filter">Place:</label>
+    <select id="place-filter" class="gallery-select">
+      <option value="all">All Places</option>
+    </select>
+  </div>
+  <div class="filter-group">
     <label for="event-filter">Event:</label>
     <select id="event-filter" class="gallery-select">
       <option value="all">All Events</option>
