@@ -79,13 +79,13 @@ An analytical tool designed to assess crop health traits from massive volumes of
 <div class="project-card" markdown>
 ![](../assets/images/fieldmapper-thumb.png)
 
-**[FieldMapper](fieldmapper.md)**
+**[DroneMapper](dronemapper.md)**
 
 A comprehensive, Python-based photogrammetry application developed as a robust, open-source alternative to proprietary UAV data processing software like Pix4D and Agisoft Metashape. It is engineered to process raw drone imagery and generate survey-grade 3D outputs (DSM, DTM, Point Clouds) alongside highly accurate orthomosaics across RGB, multispectral, and thermal sensor datasets.
 
 `UAV` `Multiband Orthomosaic` `Python`
 
-[View Project →](fieldmapper.md){ .md-button }
+[View Project →](dronemapper.md){ .md-button }
 </div>
 
 <div class="project-card" markdown>

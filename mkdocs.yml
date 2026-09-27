@@ -59,6 +59,12 @@ extra:
       link: https://github.com/TarunKondraju
     - icon: fontawesome/brands/linkedin
       link: https://www.linkedin.com/in/dr-tarun-kondraju-ph-d-99493372/
+    - icon: fontawesome/brands/google-scholar
+      link: https://scholar.google.com/citations?user=rPVbmEYAAAAJ
+      name: Google Scholar
+    - icon: fontawesome/brands/orcid
+      link: https://orcid.org/0000-0001-7999-7592
+      name: ORCID
     - icon: material/email
       link: mailto:tarun.kondraju@gmail.com
 
@@ -79,7 +85,7 @@ nav:
     - "VASUDHA": projects/vasudha.md
     - "PUSAMIA": projects/pusamia.md
     - "PUSA eCMS": projects/pusaecms.md
-    - "FieldMapper": projects/fieldmapper.md
+    - "DroneMapper": projects/dronemapper.md
     - "EdgeProcessing": projects/edgeprocessing.md
   - Publications: publications.md
   - Experience: experience.md
