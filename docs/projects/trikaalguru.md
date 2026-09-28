@@ -1,6 +1,6 @@
 # TrikaalGuru (Cosmic Blueprint) 🌌🕉️
 
-![TrikaalGuru UI](../assets/images/trikaalguru-thumb.png)
+![TrikaalGuru UI](../assets/images/web/trikaalguru-thumb-large.jpg)
 
 A comprehensive Vedic Astrology dashboard that calculates precise planetary positions, zodiac divisional charts (Vargas D1 to D60), and Vimshottari Dashas, alongside an interactive AI Vedic Astrologer chatbot and professional PDF report export.
 

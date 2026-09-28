@@ -1,6 +1,6 @@
 # Civ 5 AI Grandmaster Advisor 🧠🏛️
 
-![Civ 5 Map UI](../assets/images/civ5-thumb.jpg?v=2)
+![Civ 5 Map UI](../assets/images/web/civ5-thumb-large.jpg)
 
 A powerful, standalone companion application for **Sid Meier's Civilization V** that connects your live game state to local or remote Large Language Models (LLMs).
 

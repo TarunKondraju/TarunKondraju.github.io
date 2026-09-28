@@ -1,6 +1,6 @@
 # PAUDHA: Plant Analysis Using Digital Hyperspectral Analytics
 
-![Project overview image](../assets/images/paudha-thumb.png)
+![Project overview image](../assets/images/web/paudha-thumb-large.jpg)
 
 ## Overview
 

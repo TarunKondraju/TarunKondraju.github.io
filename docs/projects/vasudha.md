@@ -1,6 +1,6 @@
 # VASUDHA: Visualise and Assess Soil Using Digital Hyperspectral Analytics
 
-![Project overview image](../assets/images/vasudha-thumb.png)
+![Project overview image](../assets/images/web/vasudha-thumb-large.jpg)
 
 ## Overview
 

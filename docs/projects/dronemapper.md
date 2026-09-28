@@ -1,6 +1,6 @@
 # DroneMapper: Open-Source UAV Photogrammetry & Orthomosaic Pipeline
 
-![Project overview image](../assets/images/fieldmapper-thumb.png)
+![Project overview image](../assets/images/web/fieldmapper-thumb-large.jpg)
 
 ## Overview
 

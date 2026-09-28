@@ -39,7 +39,7 @@ hide:
   </div>
 
   <div class="about-image">
-    <img src="assets/images/fieldwork.jpg" alt="Field work">
+    <img src="assets/images/web/fieldwork.jpg" alt="Field work">
   </div>
 
 </div>
@@ -102,7 +102,7 @@ Co-authored with colleagues at ICAR-IARI and published with an ISBN in 2026.
 
 <div class="project-card feature-card" markdown>
 
-![](assets/images/fieldmapper-thumb.png)
+![](assets/images/web/fieldmapper-thumb.jpg){ loading=lazy }
 
 **DroneMapper**
 
@@ -114,7 +114,7 @@ My open-source desktop drone-mapping suite, comparable to Pix4D: orthomosaics, D
 
 <div class="project-card feature-card" markdown>
 
-![](assets/images/pusaecms-thumb.png)
+![](assets/images/web/pusaecms-thumb.jpg){ loading=lazy }
 
 **PUSAeCMS**
 
@@ -169,7 +169,7 @@ Google Earth Engine platform for near-real-time crop health monitoring at any lo
 
 <div class="project-card" markdown>
 
-![](assets/images/pusaecms-desktop-thumb.png)
+![](assets/images/web/pusaecms-desktop-thumb.jpg){ loading=lazy }
 
 **[PUSA eCMS Desktop](projects/pusaecms-desktop.md)**
 
@@ -181,7 +181,7 @@ A dynamic, multi-backend application that streams satellite imagery and generate
 
 <div class="project-card" markdown>
 
-![](assets/images/pusaecms-thumb.png)
+![](assets/images/web/pusaecms-thumb.jpg){ loading=lazy }
 
 **[PUSAECMS](projects/pusaecms.md)**
 
@@ -193,7 +193,7 @@ A Google Earth Engine-based application for efficient big data processing.
 
 <div class="project-card" markdown>
 
-![](assets/images/vasudha-thumb.png)
+![](assets/images/web/vasudha-thumb.jpg){ loading=lazy }
 
 **[VASUDHA](projects/vasudha.md)**
 
@@ -205,7 +205,7 @@ An application to monitor soil health offline using MIR spectra.
 
 <div class="project-card" markdown>
 
-![](assets/images/pusamia-thumb.png)
+![](assets/images/web/pusamia-thumb.jpg){ loading=lazy }
 
 **[PUSAMIA](projects/pusamia.md)**
 
@@ -217,7 +217,7 @@ An automated edge-computing pipeline designed for multispectral images of crops.
 
 <div class="project-card" markdown>
 
-![](assets/images/paudha-thumb.png)
+![](assets/images/web/paudha-thumb.jpg){ loading=lazy }
 
 **[PAUDHA](projects/paudha.md)**
 
@@ -229,7 +229,7 @@ An analytical tool designed to assess crop health traits from massive volumes of
 
 <div class="project-card" markdown>
 
-![](assets/images/fieldmapper-thumb.png)
+![](assets/images/web/fieldmapper-thumb.jpg){ loading=lazy }
 
 **[DroneMapper](projects/dronemapper.md)**
 
@@ -241,7 +241,7 @@ A robust, open-source Python photogrammetry application for drone imagery.
 
 <div class="project-card" markdown>
 
-![](assets/images/edgeprocessing-thumb.png)
+![](assets/images/web/edgeprocessing-thumb.jpg){ loading=lazy }
 
 **[EdgeProcessing](projects/edgeprocessing.md)**
 
@@ -253,7 +253,7 @@ Edge Processing of Multispectral Data from UAV-mounted cameras in real-time.
 
 <div class="project-card" markdown>
 
-![](assets/images/civ5-thumb.jpg)
+![](assets/images/web/civ5-thumb.jpg){ loading=lazy }
 
 **[Civ 5 AI Advisor](projects/civ5-ai-advisor.md)**
 
@@ -265,7 +265,7 @@ Live game state extraction and LLM integration tool for Civilization V.
 
 <div class="project-card" markdown>
 
-![](assets/images/trikaalguru-thumb.png)
+![](assets/images/web/trikaalguru-thumb.jpg){ loading=lazy }
 
 **[TrikaalGuru](projects/trikaalguru.md)**
 

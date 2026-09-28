@@ -5,7 +5,7 @@ A selection of my geospatial products and analytical pipelines. Click any card t
 <div class="grid" markdown>
 
 <div class="project-card" markdown>
-![](../assets/images/trikaalguru-thumb.png)
+![](../assets/images/web/trikaalguru-thumb.jpg){ loading=lazy }
 
 **[TrikaalGuru](trikaalguru.md)**
 
@@ -17,7 +17,7 @@ A comprehensive website for Vedic and KP system based astrology predictions and 
 </div>
 
 <div class="project-card" markdown>
-![](../assets/images/pusaecms-desktop-thumb.png)
+![](../assets/images/web/pusaecms-desktop-thumb.jpg){ loading=lazy }
 
 **[PUSA eCMS Desktop](pusaecms-desktop.md)**
 
@@ -29,7 +29,7 @@ The PUSA Cloud-based Crop Monitoring System (PUSA eCMS) Desktop is a dynamic, mu
 </div>
 
 <div class="project-card" markdown>
-![](../assets/images/pusaecms-thumb.png)
+![](../assets/images/web/pusaecms-thumb.jpg){ loading=lazy }
 
 **[PUSAECMS](pusaecms.md)**
 
@@ -41,7 +41,7 @@ A Google Earth Engine-based application for efficient big data processing, provi
 </div>
 
 <div class="project-card" markdown>
-![](../assets/images/vasudha-thumb.png)
+![](../assets/images/web/vasudha-thumb.jpg){ loading=lazy }
 
 **[VASUDHA](vasudha.md)**
 
@@ -53,7 +53,7 @@ An application to monitor soil health (N, P, K, OC, EC, pH) in real-time and off
 </div>
 
 <div class="project-card" markdown>
-![](../assets/images/pusamia-thumb.png)
+![](../assets/images/web/pusamia-thumb.jpg){ loading=lazy }
 
 **[PUSAMIA](pusamia.md)**
 
@@ -65,7 +65,7 @@ An automated edge-computing pipeline designed to co-register, layer stack, and b
 </div>
 
 <div class="project-card" markdown>
-![](../assets/images/paudha-thumb.png)
+![](../assets/images/web/paudha-thumb.jpg){ loading=lazy }
 
 **[PAUDHA](paudha.md)**
 
@@ -77,7 +77,7 @@ An analytical tool designed to assess crop health traits from massive volumes of
 </div>
 
 <div class="project-card" markdown>
-![](../assets/images/fieldmapper-thumb.png)
+![](../assets/images/web/fieldmapper-thumb.jpg){ loading=lazy }
 
 **[DroneMapper](dronemapper.md)**
 
@@ -89,7 +89,7 @@ A comprehensive, Python-based photogrammetry application developed as a robust, 
 </div>
 
 <div class="project-card" markdown>
-![](../assets/images/edgeprocessing-thumb.png)
+![](../assets/images/web/edgeprocessing-thumb.jpg){ loading=lazy }
 
 **[EdgeProcessing](edgeprocessing.md)**
 
@@ -101,7 +101,7 @@ Edge Processing of Multispectral Data is an automated pipeline designed to co-re
 </div>
 
 <div class="project-card" markdown>
-![](../assets/images/civ5-thumb.jpg)
+![](../assets/images/web/civ5-thumb.jpg){ loading=lazy }
 
 **[Civ 5 AI Advisor](civ5-ai-advisor.md)**
 

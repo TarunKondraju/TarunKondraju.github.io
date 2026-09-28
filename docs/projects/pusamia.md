@@ -1,6 +1,6 @@
 # PUSAMIA: PUSA Multispectral Image Analyser
 
-![Project overview image](../assets/images/pusamia-thumb.png)
+![Project overview image](../assets/images/web/pusamia-thumb-large.jpg)
 
 ## Overview
 

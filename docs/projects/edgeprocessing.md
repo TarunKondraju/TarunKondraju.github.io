@@ -1,6 +1,6 @@
 # EdgeProcessing : Processing UAV Multispectral Data at the Edge
 
-![Project overview image](../assets/images/edgeprocessing-thumb.png)
+![Project overview image](../assets/images/web/edgeprocessing-thumb-large.jpg)
 
 ## Overview
 

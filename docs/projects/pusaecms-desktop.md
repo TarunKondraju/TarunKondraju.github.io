@@ -1,6 +1,6 @@
 # PUSA eCMS Desktop
 
-![PUSA eCMS Desktop](../assets/images/pusaecms-desktop-thumb.png)
+![PUSA eCMS Desktop](../assets/images/web/pusaecms-desktop-thumb-large.jpg)
 
 ## Overview
 

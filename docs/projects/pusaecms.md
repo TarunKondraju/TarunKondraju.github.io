@@ -1,6 +1,6 @@
 # PUSAECMS: PUSA Internet - based Crop Management System
 
-![Project overview image](../assets/images/pusaecms-thumb.png)
+![Project overview image](../assets/images/web/pusaecms-thumb-large.jpg)
 
 ## Overview
 
