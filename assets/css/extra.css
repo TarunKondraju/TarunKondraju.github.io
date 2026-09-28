@@ -1,0 +1,268 @@
+/* =========================================
+   General Page Styling
+   ========================================= */
+   p {
+    text-align: justify; /* Justifies all paragraph text automatically */
+  }
+  
+  /* =========================================
+     Light Blue Hero Banner Styling (Homepage)
+     ========================================= */
+  .hero-banner {
+      background: linear-gradient(135deg, #e8f4f8 0%, #f0f7ff 50%, #e8f0fe 100%);
+      padding: 3.5rem 2rem;
+      border-radius: 8px;
+      text-align: center;
+      margin-top: 0;
+      margin-bottom: 2rem;
+  }
+  
+  /* Centers the profile picture inside the banner and forces a perfect circle */
+  .hero-profile-pic {
+      border-radius: 50% !important;
+      width: 180px !important;
+      height: 180px !important;
+      aspect-ratio: 1 / 1 !important;
+      object-fit: cover !important;
+      display: block;
+      margin: 0 auto 15px auto; 
+      border: 4px solid white; 
+      box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  }
+  
+  /* Dark indigo for strong contrast on the name */
+  .hero-banner h1 {
+      color: #1a237e !important; 
+      font-weight: 700;
+      margin-top: 0;
+      margin-bottom: 10px;
+  }
+  
+  /* Dark gray for the subtitle */
+  .hero-banner h2 {
+      color: #424242 !important;
+      font-size: 1.15rem;
+      font-weight: 400;
+      margin-top: 0;
+      border-bottom: none;
+  }
+  
+  /* =========================================
+     About Me Section (Text Left, Extra Image Right)
+     ========================================= */
+  .about-section {
+      display: flex;
+      gap: 2.5rem;
+      align-items: flex-start;
+      margin-top: 1rem;
+  }
+  
+  .about-text {
+      flex: 1;
+      text-align: left; 
+  }
+  
+  .about-image {
+      flex: 0 0 350px; /* Locks the secondary image width */
+  }
+  
+  .about-image img {
+      width: 100%;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+      display: block;
+  }
+  
+  /* Make it stack nicely on mobile phones */
+  @media (max-width: 768px) {
+      .about-section {
+          flex-direction: column;
+      }
+      .about-image {
+          flex: 1;
+          width: 100%;
+      }
+  }
+  
+  /* =========================================
+     Timeline on the Experience page
+     ========================================= */
+  .timeline {
+    padding-left: 1.75rem;
+    border-left: 3px solid var(--md-primary-fg-color--light);
+  }
+  
+  .timeline-entry {
+    position: relative;
+    margin-bottom: 1.75rem;
+  }
+  
+  .timeline-entry::before {
+    content: '';
+    position: absolute;
+    left: -2.2rem;
+    top: 0.45rem;
+    width: 0.9rem;
+    height: 0.9rem;
+    border-radius: 50%;
+    background-color: var(--md-primary-fg-color);
+    border: 2px solid var(--md-default-bg-color);
+  }
+  
+  .timeline-entry h3 {
+    margin-top: 0;
+  }
+  
+  /* =========================================
+     Project Cards Gallery
+     ========================================= */
+  .md-typeset .grid.cards > ul > li {
+    background-color: #f0f7ff;
+  }
+  
+  .project-card {
+    border: 1px solid var(--md-default-fg-color--lightest);
+    border-radius: 8px;
+    padding: 1rem;
+    background-color: #f0f7ff;
+    transition: box-shadow 0.2s;
+  }
+  
+  .project-card:hover {
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.12);
+  }
+  
+  .project-card img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 4px;
+    margin-bottom: 0.75rem;
+  }
+
+/* Custom 3-Column Grid for Homepage */
+.grid-3 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5rem;
+    margin-top: 1rem;
+}
+@media (max-width: 900px) {
+    .grid-3 { grid-template-columns: repeat(2, 1fr); }
+}
+@media (max-width: 600px) {
+    .grid-3 { grid-template-columns: 1fr; }
+}
+
+/* Highlights stats + publication summary */
+.stats-row { display: grid; grid-template-columns: repeat(4, 1fr); gap: 1rem; margin: 1rem 0; }
+.stats-row .stat { text-align: center; padding: .8rem .5rem; border-radius: 8px; background-color: #f0f7ff; font-size: 1.1rem; }
+.stats-row .stat span { font-size: .75rem; opacity: .75; }
+[data-md-color-scheme="slate"] .stats-row .stat, [data-md-color-scheme="slate"] .pub-stats { background-color: rgba(255,255,255,.06); }
+@media (max-width: 700px) { .stats-row { grid-template-columns: repeat(2, 1fr); } }
+.pub-stats { padding: .6rem 1rem; border-radius: 8px; background-color: #f0f7ff; }
+.md-typeset .stats-row .stat, .md-typeset .stats-row .stat p { text-align: center !important; margin: 0; }
+
+/* =========================================
+   Home page redesign: pitch, buttons, impact row,
+   audience cards, featured work, journals, CTA
+   ========================================= */
+.hero-pitch {
+  text-align: center !important;
+  font-size: 1.05rem;
+  color: #37474f;
+  max-width: 44rem;
+  margin: .5rem auto 1.2rem auto;
+}
+.hero-buttons { display: flex; flex-wrap: wrap; gap: .5rem; justify-content: center; }
+.hero-buttons .md-button { margin: 0; font-size: .75rem; padding: .45em 1.1em; }
+
+.impact-row {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: .75rem;
+  margin: 0 0 1.5rem 0;
+}
+.impact {
+  background: #f0f7ff;
+  border-radius: 10px;
+  padding: .9rem .5rem;
+  text-align: center;
+  border: 1px solid rgba(26, 35, 126, .08);
+}
+.impact strong { display: block; font-size: 1.35rem; color: #1a237e; line-height: 1.2; }
+.impact span { display: block; font-size: .68rem; opacity: .8; margin-top: .2rem; line-height: 1.3; }
+@media (max-width: 900px) { .impact-row { grid-template-columns: repeat(3, 1fr); } }
+@media (max-width: 480px) { .impact-row { grid-template-columns: repeat(2, 1fr); } }
+
+.audience-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+  margin-top: 1rem;
+}
+.audience-card {
+  border: 1px solid var(--md-default-fg-color--lightest);
+  border-top: 4px solid var(--md-primary-fg-color);
+  border-radius: 8px;
+  padding: .2rem 1rem .8rem 1rem;
+  background: var(--md-default-bg-color);
+  transition: box-shadow .2s, transform .2s;
+}
+.audience-card:hover { box-shadow: 0 6px 18px rgba(0,0,0,.10); transform: translateY(-2px); }
+.md-typeset .audience-card h3 { margin: .8rem 0 .4rem 0; font-size: .95rem; font-weight: 700; }
+.md-typeset .audience-card h3 .twemoji { color: var(--md-primary-fg-color); }
+.md-typeset .audience-card p { text-align: left; font-size: .78rem; margin: 0; }
+@media (max-width: 900px) { .audience-grid { grid-template-columns: repeat(2, 1fr); } }
+@media (max-width: 600px) { .audience-grid { grid-template-columns: 1fr; } }
+
+.feature-card p { text-align: left; }
+.book-cover {
+  height: 180px;
+  border-radius: 4px;
+  margin-bottom: .75rem;
+  background: linear-gradient(135deg, #1a237e 0%, #283593 55%, #2e7d32 100%);
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 1rem 1.2rem;
+}
+.book-cover .book-kicker { font-size: .65rem; letter-spacing: .08em; text-transform: uppercase; opacity: .85; }
+.book-cover .book-title { font-size: 1.05rem; font-weight: 700; line-height: 1.3; margin: .35rem 0; }
+.book-cover .book-isbn { font-size: .65rem; opacity: .85; }
+
+.journal-strip { display: flex; flex-wrap: wrap; gap: .5rem; margin: .5rem 0 .8rem 0; }
+.journal-strip span {
+  font-size: .72rem;
+  font-style: italic;
+  padding: .3rem .75rem;
+  border-radius: 999px;
+  background: #f0f7ff;
+  border: 1px solid rgba(26, 35, 126, .12);
+}
+
+.md-typeset .timeline-entry h3 { font-size: .9rem; margin-bottom: .2rem; }
+.md-typeset .timeline-entry p { margin: 0; text-align: left; }
+
+.cta-box {
+  margin-top: 2.5rem;
+  padding: .5rem 1.5rem 1.5rem 1.5rem;
+  border-radius: 12px;
+  background: linear-gradient(135deg, #e8f4f8 0%, #f0f7ff 50%, #e8f0fe 100%);
+  text-align: center;
+}
+.md-typeset .cta-box p { text-align: center; }
+.cta-box .md-button { margin: .25rem; }
+
+/* Dark mode */
+[data-md-color-scheme="slate"] .hero-pitch { color: #cfd8dc; }
+[data-md-color-scheme="slate"] .hero-banner { background: linear-gradient(135deg, #1e2a3a 0%, #22304a 100%); }
+[data-md-color-scheme="slate"] .hero-banner h1 { color: #c5cae9 !important; }
+[data-md-color-scheme="slate"] .hero-banner h2 { color: #b0bec5 !important; }
+[data-md-color-scheme="slate"] .impact,
+[data-md-color-scheme="slate"] .journal-strip span { background: rgba(255,255,255,.06); border-color: rgba(255,255,255,.1); }
+[data-md-color-scheme="slate"] .impact strong { color: #9fa8da; }
+[data-md-color-scheme="slate"] .cta-box { background: linear-gradient(135deg, #1e2a3a 0%, #22304a 100%); }
+[data-md-color-scheme="slate"] .project-card { background-color: rgba(255,255,255,.04); }
+@media (max-width: 768px) { .md-typeset .about-text p { text-align: left; } }
